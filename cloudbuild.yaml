@@ -1,0 +1,7 @@
+steps:
+- name: 'ubuntu'
+  args: ['echo', 'hello ${PROJECT_ID}']
+substitutions:
+    _SUB_VALUE: world
+options:
+    substitution_option: 'ALLOW_LOOSE'
