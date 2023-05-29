@@ -1,11 +1,7 @@
 steps:
 - name: 'ubuntu'
-  args: ['echo', '  #############  hello ${_PR_NUMBER}  #############']
-- name: 'ubuntu'
-  args: ['echo', '  #############  hello ${_BASE_BRANCH}  #############']
-
-- name: 'ubuntu'
-  args: ['echo', '  #############  hello ${_HEAD_REPO_URL}  #############']
-
-- name: 'ubuntu'
-  args: ['echo', '  #############  hello ${_HEAD_BRANCH}  #############']
+  args: ['touch', 'new.txt hello.json new2.txt hello2.jsonnew5.txt hello5.json']
+artifacts:
+  objects:
+    location: 'gs://playground-s-11-cf59b6e1'
+    paths: ['./*.txt','./*.json']
