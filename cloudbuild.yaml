@@ -1,11 +1,11 @@
 steps:
-- name: 'test'
+- name: 'ubuntu'
   args: ['echo', '  #############  hello ${_PR_NUMBER}  #############']
-- name: 'test1'
+- name: 'ubuntu'
   args: ['echo', '  #############  hello ${_BASE_BRANCH}  #############']
 
-- name: 'test2'
+- name: 'ubuntu'
   args: ['echo', '  #############  hello ${_HEAD_REPO_URL}  #############']
 
-- name: 'test3'
+- name: 'ubuntu'
   args: ['echo', '  #############  hello ${_HEAD_BRANCH}  #############']
