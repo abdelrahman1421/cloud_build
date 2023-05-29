@@ -1,7 +1,7 @@
 steps:
 - name: 'ubuntu'
-  args: ['touch', 'new.txt hello.json new2.txt hello2.jsonnew5.txt hello5.json']
-artifacts:
-  objects:
-    location: 'gs://playground-s-11-cf59b6e1'
-    paths: ['./*.txt','./*.json']
+  args: ['touch', 'new.txt hello.json new2.txt hello2.jsonnew5.txt hello5.json && pwd && ls -la']
+    #artifacts:
+    #objects:
+    #location: 'gs://playground-s-11-cf59b6e1'
+    #paths: ['./*.txt','./*.json']
