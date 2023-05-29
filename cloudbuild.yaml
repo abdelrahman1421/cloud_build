@@ -2,7 +2,6 @@ steps:
 - name: 'ubuntu'
   entrypoint: /bin/bash
   args:
-    - -ce
     - |
       mkdir new
       cd new
