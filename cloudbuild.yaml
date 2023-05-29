@@ -1,7 +1,5 @@
 steps:
 - name: 'ubuntu'
-  args: ['echo', 'hello ${PROJECT_ID}']
-substitutions:
-    _SUB_VALUE: world
+  args: ['echo', '#############hello ${PROJECT_ID}#############']
 options:
     substitution_option: 'ALLOW_LOOSE'
