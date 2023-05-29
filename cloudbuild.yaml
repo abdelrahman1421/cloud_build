@@ -1,9 +1,4 @@
 steps:
 - name: 'ubuntu'
-  args: ['echo', '#############hello ${_PRNUMBER}#############']
-options:
-    substitution_option: 'ALLOW_LOOSE'
-    env:
-      - PR_NUMBER=$_PRNUMBER
-substitutions:
-  _PRNUMBER: $(body.number)
+  args: ['echo', '#############hello ${BRANCH_NAME}#############']
+
