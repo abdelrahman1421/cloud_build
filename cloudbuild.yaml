@@ -8,5 +8,5 @@ steps:
       touch new.txt hello.json new2.txt hello2.jsonnew5.txt hello5.json
 artifacts:
     objects:
-    location: 'gs://playground-s-11-cf59b6e1'
-    paths: ['./new/*.txt','./new/*.json']
+     location: 'gs://playground-s-11-cf59b6e1'
+     paths: ['./new/*.txt','./new/*.json']
