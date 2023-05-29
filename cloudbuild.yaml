@@ -1,7 +1,6 @@
 steps:
 - name: 'ubuntu'
   args:
-    - -e
     - |
       mkdir new
       cd new
