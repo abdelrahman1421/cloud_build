@@ -1,4 +1,4 @@
 steps:
 - name: 'ubuntu'
-  args: ['echo', '#############hello ${PR_NUMBER}#############']
+  args: ['echo', '#############hello ${_PR_NUMBER}#############']
 
