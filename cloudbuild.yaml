@@ -1,11 +1,11 @@
 steps:
-- name: 'PRNUMBER'
+- name: 'test'
   args: ['echo', '  #############  hello ${_PR_NUMBER}  #############']
-- name: 'HEADBRAN'
+- name: 'test1'
   args: ['echo', '  #############  hello ${_BASE_BRANCH}  #############']
 
-- name: 'SDSD'
+- name: 'test2'
   args: ['echo', '  #############  hello ${_HEAD_REPO_URL}  #############']
 
-- name: ''
+- name: 'test3'
   args: ['echo', '  #############  hello ${_HEAD_BRANCH}  #############']
