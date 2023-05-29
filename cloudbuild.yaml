@@ -4,7 +4,7 @@ steps:
 
 - name: 'ubuntu'
   entrypoint: /bin/bash
-  args: ['pwd']
+  args: ['echo','$PWD']
     #artifacts:
     #objects:
     #location: 'gs://playground-s-11-cf59b6e1'
