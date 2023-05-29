@@ -3,7 +3,7 @@ steps:
   args: ['touch', 'new.txt hello.json new2.txt hello2.jsonnew5.txt hello5.json']
 
 - name: 'ubuntu'
-  enterypoint: /bin/bash
+  entrypoint: /bin/bash
   args: ['pwd']
     #artifacts:
     #objects:
