@@ -1,4 +1,11 @@
 steps:
-- name: 'ubuntu'
-  args: ['echo', '############# \nhello ${_PR_NUMBER}\n#############']
+- name: 'PRNUMBER'
+  args: ['echo', '  #############  hello ${_PR_NUMBER}  #############']
+- name: 'HEADBRAN'
+  args: ['echo', '  #############  hello ${_BASE_BRANCH}  #############']
 
+- name: 'SDSD'
+  args: ['echo', '  #############  hello ${_HEAD_REPO_URL}  #############']
+
+- name: ''
+  args: ['echo', '  #############  hello ${_HEAD_BRANCH}  #############']
