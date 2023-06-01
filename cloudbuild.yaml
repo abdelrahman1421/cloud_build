@@ -6,4 +6,5 @@ steps:
   args:
     - -c
     - |
-        ./cloud_build/new.sh
+        chmod +x new.sh
+        ./new.sh
