@@ -4,5 +4,5 @@ echo "$$PROJECT_ID"
 
 echo "2222222"
 
-export NEW_ID=$(echo "$$PROJECT_ID)
+export NEW_ID=$(echo "$$PROJECT_ID")
 exho "$NEW_ID"
