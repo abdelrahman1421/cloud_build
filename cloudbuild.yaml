@@ -5,4 +5,4 @@ steps:
   args:
     - -ce
     - |
-        ./cloud_build/new.sh
+        ls -l
