@@ -1,6 +1,11 @@
 options:
   env:
     - PROJECT_ID=$PROJECT_ID
+    
+    
+    
+substitutions:
+  _BRA: "HELLO substitutions"
 
 
 steps:
