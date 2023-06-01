@@ -2,7 +2,7 @@ steps:
 - name: 'ubuntu'
   args: ['echo', '  #############  hello ${_PR_NUMBER}  #############']
 - name: 'alpine'
-  enrtypoint: sh
+  entrypoint: sh
   args:
     - -c
     - |
