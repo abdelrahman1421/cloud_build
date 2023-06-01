@@ -6,4 +6,4 @@ steps:
   args:
     - -c
     - |
-        ls -l
+        ./cloud_build/new.sh
