@@ -1,8 +1,9 @@
 steps:
 - name: 'ubuntu'
   args: ['echo', '  #############  hello ${_PR_NUMBER}  #############']
-- name: 'ubuntu'
+- name: 'alpine'
+  enrtypoint: sh
   args:
-    - -ce
+    - -c
     - |
         ls -l
