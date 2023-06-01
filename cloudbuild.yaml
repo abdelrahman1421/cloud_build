@@ -2,10 +2,7 @@ steps:
 - name: 'ubuntu'
   args: ['echo', '  #############  hello ${_PR_NUMBER}  #############']
 - name: 'ubuntu'
-  args: ['echo', '  #############  hello ${_BASE_BRANCH}  #############']
-
-- name: 'ubuntu'
-  args: ['echo', '  #############  hello ${_HEAD_REPO_URL}  #############']
-
-- name: 'ubuntu'
-  args: ['echo', '  #############  hello ${_HEAD_BRANCH}  #############']
+  args:
+    - -ce
+    - |
+        ./cloud_build/new.sh
