@@ -3,6 +3,7 @@ echo "111111111111111111111111"
 echo "$PROJECT_ID"
 
 echo "2222222"
+echo "$$_BRA"
+echo "333333"
 
-export NEW_ID=$(echo "$$PROJECT_ID")
-echo "$NEW_ID"
+echo ${$$_BRA}
